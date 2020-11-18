@@ -44,9 +44,7 @@ function Run()
     local timeSpanMin = 20;
     local baseDay = 12;
 
-    --local hour, minute = GetGameTime()
-    local hour = date("%H")
-    local minute = date("%M")
+    local hour, minute = GetGameTime()
     local day = date("%d")
     local currentTimeInMin = (day*60*60) + (hour*60) + minute;
     local boss = 
