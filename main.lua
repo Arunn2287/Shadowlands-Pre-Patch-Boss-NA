@@ -49,7 +49,7 @@ function Run()
     local currentTimeInMin = (day*60*60) + (hour*60) + minute;
     local boss = 
     {
-        [1]  = { ["name"] = "Skadi the Ruthless",           ["coorX"] = "57,8",     ["coorY"] = "56,1", ["day"] =  19, ["hour"] = 23, ["min"] = 50},
+        [1]  = { ["name"] = "Skadi the Ruthless",           ["coorX"] = "57,8",     ["coorY"] = "56,1", ["day"] =  18, ["hour"] = 23, ["min"] = 50},
         [2]  = { ["name"] = "Ingvar the Plunderer",         ["coorX"] = "52,4",     ["coorY"] = "52,6", ["day"] =  19, ["hour"] = 0, ["min"] = 0},
         [3]  = { ["name"] = "Prince Keleseth",              ["coorX"] = "54,0",     ["coorY"] = "44,7", ["day"] =  19, ["hour"] = 0, ["min"] = 10},
         [4]  = { ["name"] = "The Black Knight",             ["coorX"] = "64,8",     ["coorY"] = "22,1", ["day"] =  19, ["hour"] = 0, ["min"] = 20},
