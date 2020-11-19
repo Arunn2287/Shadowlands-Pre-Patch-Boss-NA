@@ -49,26 +49,26 @@ function Run()
     local currentTimeInMin = (day*60*60) + (hour*60) + minute;
     local boss = 
     {
-        [1]  = { ["name"] = "Skadi the Ruthless",           ["coorX"] = "57,8",     ["coorY"] = "56,1", ["day"] =  17, ["hour"] = 15, ["min"] = 30},
-        [2]  = { ["name"] = "Ingvar the Plunderer",         ["coorX"] = "52,4",     ["coorY"] = "52,6", ["day"] =  17, ["hour"] = 15, ["min"] = 40},
-        [3]  = { ["name"] = "Prince Keleseth",              ["coorX"] = "54,0",     ["coorY"] = "44,7", ["day"] =  17, ["hour"] = 15, ["min"] = 50},
-        [4]  = { ["name"] = "The Black Knight",             ["coorX"] = "64,8",     ["coorY"] = "22,1", ["day"] =  17, ["hour"] = 16, ["min"] = 0},
-        [5]  = { ["name"] = "Bronjahm",                     ["coorX"] = "70,7",     ["coorY"] = "38,4", ["day"] =  17, ["hour"] = 16, ["min"] = 10},
-        [6]  = { ["name"] = "Scourgelord Tyrannus",         ["coorX"] = "47,2",     ["coorY"] = "66,1", ["day"] =  17, ["hour"] = 16, ["min"] = 20},
-        [7]  = { ["name"] = "Forgemaster Garfrost",         ["coorX"] = "58,6",     ["coorY"] = "72,5", ["day"] =  17, ["hour"] = 16, ["min"] = 30},
-        [8]  = { ["name"] = "Marwyn",                       ["coorX"] = "58,2",     ["coorY"] = "83,4", ["day"] =  17, ["hour"] = 16, ["min"] = 40},
-        [9]  = { ["name"] = "Falric",                       ["coorX"] = "50,2",     ["coorY"] = "87,9", ["day"] =  17, ["hour"] = 16, ["min"] = 50},
-        [10] = { ["name"] = "The Prophet Tharon'ja",        ["coorX"] = "80,1",     ["coorY"] = "61,2", ["day"] =  17, ["hour"] = 17, ["min"] = 0},
-        [11] = { ["name"] = "Novos the Summoner",           ["coorX"] = "77,8",     ["coorY"] = "66,1", ["day"] =  17, ["hour"] = 17, ["min"] = 10},
-        [12] = { ["name"] = "Trollgore",                    ["coorX"] = "58,3",     ["coorY"] = "39,4", ["day"] =  17, ["hour"] = 17, ["min"] = 20},
-        [13] = { ["name"] = "Krik'thir the Gatewatcher",    ["coorX"] = "67,5",     ["coorY"] = "58,0", ["day"] =  17, ["hour"] = 17, ["min"] = 30},
-        [14] = { ["name"] = "Prince Taldaram",              ["coorX"] = "29,6",     ["coorY"] = "62,2", ["day"] =  17, ["hour"] = 17, ["min"] = 40},
-        [15] = { ["name"] = "Elder Nadox",                  ["coorX"] = "44,2",     ["coorY"] = "49,1", ["day"] =  17, ["hour"] = 17, ["min"] = 50},
-        [16] = { ["name"] = "Noth the Plaguebringer",       ["coorX"] = "31,6",     ["coorY"] = "70,5", ["day"] =  17, ["hour"] = 18, ["min"] = 0},
-        [17] = { ["name"] = "Patchwerk (in cave)",          ["coorX"] = "34,4",     ["coorY"] = "68,3", ["day"] =  17, ["hour"] = 18, ["min"] = 10},
-        [18] = { ["name"] = "Blood Queen Lana'thel",        ["coorX"] = "49,7",     ["coorY"] = "32,7", ["day"] =  17, ["hour"] = 15, ["min"] = 0},
-        [19] = { ["name"] = "Professor Putricide",          ["coorX"] = "57,1",     ["coorY"] = "30,3", ["day"] =  17, ["hour"] = 15, ["min"] = 10},
-        [20] = { ["name"] = "Lady Deathwhisper",            ["coorX"] = "51,1",     ["coorY"] = "78,5", ["day"] =  17, ["hour"] = 15,  ["min"] = 20}
+        [1]  = { ["name"] = "Skadi the Ruthless",           ["coorX"] = "57,8",     ["coorY"] = "56,1", ["day"] =  19, ["hour"] = 23, ["min"] = 50},
+        [2]  = { ["name"] = "Ingvar the Plunderer",         ["coorX"] = "52,4",     ["coorY"] = "52,6", ["day"] =  19, ["hour"] = 0, ["min"] = 0},
+        [3]  = { ["name"] = "Prince Keleseth",              ["coorX"] = "54,0",     ["coorY"] = "44,7", ["day"] =  19, ["hour"] = 0, ["min"] = 10},
+        [4]  = { ["name"] = "The Black Knight",             ["coorX"] = "64,8",     ["coorY"] = "22,1", ["day"] =  19, ["hour"] = 0, ["min"] = 20},
+        [5]  = { ["name"] = "Bronjahm",                     ["coorX"] = "70,7",     ["coorY"] = "38,4", ["day"] =  19, ["hour"] = 0, ["min"] = 30},
+        [6]  = { ["name"] = "Scourgelord Tyrannus",         ["coorX"] = "47,2",     ["coorY"] = "66,1", ["day"] =  19, ["hour"] = 0, ["min"] = 40},
+        [7]  = { ["name"] = "Forgemaster Garfrost",         ["coorX"] = "58,6",     ["coorY"] = "72,5", ["day"] =  19, ["hour"] = 0, ["min"] = 50},
+        [8]  = { ["name"] = "Marwyn",                       ["coorX"] = "58,2",     ["coorY"] = "83,4", ["day"] =  19, ["hour"] = 1, ["min"] = 0},
+        [9]  = { ["name"] = "Falric",                       ["coorX"] = "50,2",     ["coorY"] = "87,9", ["day"] =  18, ["hour"] = 21, ["min"] = 50},
+        [10] = { ["name"] = "The Prophet Tharon'ja",        ["coorX"] = "80,1",     ["coorY"] = "61,2", ["day"] =  18, ["hour"] = 22, ["min"] = 0},
+        [11] = { ["name"] = "Novos the Summoner",           ["coorX"] = "77,8",     ["coorY"] = "66,1", ["day"] =  18, ["hour"] = 22, ["min"] = 10},
+        [12] = { ["name"] = "Trollgore",                    ["coorX"] = "58,3",     ["coorY"] = "39,4", ["day"] =  18, ["hour"] = 22, ["min"] = 20},
+        [13] = { ["name"] = "Krik'thir the Gatewatcher",    ["coorX"] = "67,5",     ["coorY"] = "58,0", ["day"] =  18, ["hour"] = 22, ["min"] = 30},
+        [14] = { ["name"] = "Prince Taldaram",              ["coorX"] = "29,6",     ["coorY"] = "62,2", ["day"] =  18, ["hour"] = 22, ["min"] = 40},
+        [15] = { ["name"] = "Elder Nadox",                  ["coorX"] = "44,2",     ["coorY"] = "49,1", ["day"] =  18, ["hour"] = 23, ["min"] = 50},
+        [16] = { ["name"] = "Noth the Plaguebringer",       ["coorX"] = "31,6",     ["coorY"] = "70,5", ["day"] =  18, ["hour"] = 23, ["min"] = 0},
+        [17] = { ["name"] = "Patchwerk (in cave)",          ["coorX"] = "34,4",     ["coorY"] = "68,3", ["day"] =  18, ["hour"] = 23, ["min"] = 10},
+        [18] = { ["name"] = "Blood Queen Lana'thel",        ["coorX"] = "49,7",     ["coorY"] = "32,7", ["day"] =  18, ["hour"] = 23, ["min"] = 20},
+        [19] = { ["name"] = "Professor Putricide",          ["coorX"] = "57,1",     ["coorY"] = "30,3", ["day"] =  18, ["hour"] = 23, ["min"] = 30},
+        [20] = { ["name"] = "Lady Deathwhisper",            ["coorX"] = "51,1",     ["coorY"] = "78,5", ["day"] =  18, ["hour"] = 23,  ["min"] = 40}
     };
 
     for id, item in pairs(boss) do
